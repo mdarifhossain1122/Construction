@@ -32,7 +32,7 @@ body{
     border: 1px solid black;
     padding: 5px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 8px;
 
 }
 .two-container{
@@ -60,4 +60,41 @@ body{
 }
 .home{
     margin-right: 100px;
+}
+
+.since{
+    background-image: url(https://civilengineeringglobal.com/wp-content/uploads/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-1920-x-1080-1500x630.jpg);
+    height: 630px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.since-container{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.since-container p{
+    font-size: 25px;
+    color: white;
+}
+.since-container h1{
+    font-size: 60px;
+    color: white;
+}
+.since-container .btn-one{
+    padding: 20px 25px 20px 25px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.since-container .btn-two{
+    padding: 20px 25px 20px 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #36454F;
+    border: none;
+    cursor: pointer;
 }
