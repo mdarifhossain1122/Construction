@@ -138,4 +138,64 @@ body{
 }
 .card-setup:hover{
     background-color: rgb(255, 166, 0);
+
+}
+.container h1{
+    font-size: 40px;
+}
+.services p{
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.services h1{
+    font-size: 60px;
+    margin-top: -20px;
+}
+.services{
+    text-align: center;
+}
+.arki{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.arki-two{
+    width: 650px;
+}
+.arki-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 230px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    border: none;
+}
+.arki-three h1{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.arki-three p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.arki-three button{
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: none;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+}
+.arki-image{
+    margin-top: -60px;
+}
+.arki-three button:hover{
+    background-color: black;
+    color: white;
 }
