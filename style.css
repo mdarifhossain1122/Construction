@@ -98,3 +98,44 @@ body{
     border: none;
     cursor: pointer;
 }
+.container{
+    background-image: url(https://i0.wp.com/www.aribuybd.com/wp-content/uploads/2020/11/engineer-aribuy-1.jpg?fit=1000%2C1000&ssl=1);
+    height: 600px;
+    width: 700px;
+}
+.container-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    PADDING-bottom: 100px;
+    border: none;
+    
+    
+}
+.topic-start{
+    width: 700px;
+}
+.card-start{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card-setup{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 320px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    background-color: #bec2c4;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.card-setup:hover{
+    background-color: rgb(255, 166, 0);
+}
