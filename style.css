@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+}
+.frist-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px 0px 10px 0px ;
+    background-color: #36454F;
+    border: none;
+}
+.frist-container .call{
+    font-size: 20px;
+    margin-right: -200px;
+    color: white;
+
+}
+.frist-container .email{
+    font-size: 20px;
+    margin-left: 500px;
+    color: white;
+
+}
+.frist-container .facebook{
+    font-size: 20px;
+    margin-left: -200px;
+    
+}
+.frist-container .facebook a{
+    color: rgb(255, 166, 0);
+    border: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+.two-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #44535d;
+    padding: 20px;
+    border: none;
+}
+.dream .con-dr{
+    font-size: 30px;
+    border: 1px solid tomato;
+    padding: 21px 30px 21px 120px;
+    margin-left: -20px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+}
+.home a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.home{
+    margin-right: 100px;
+}
