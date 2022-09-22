@@ -199,3 +199,25 @@ body{
     background-color: black;
     color: white;
 }
+.clients{
+    background-image: url(https://www.surforma.com/media/filer_public_thumbnails/filer_public/01/a2/01a2dd6a-bae7-4682-a8ed-dad568aaa6bd/l4179.jpg__1200x630_q95_crop_subsampling-2_upscale.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.clients-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.clients-card h1{
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+}
+.clients-card p{
+    color: white;
+}
