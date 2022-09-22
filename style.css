@@ -207,6 +207,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
     
 }
 .clients-card{
@@ -220,4 +222,14 @@ body{
 }
 .clients-card p{
     color: white;
+}
+.team p{
+    color: rgb(255, 166, 0);
+    font-size: 20px;
+    text-align: center;
+}
+.team h1{
+    font-size: 60px;
+    margin-top: -10px;
+    text-align: center;
 }
